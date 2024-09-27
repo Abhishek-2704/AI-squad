@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwritten Text Recognition</title>
+    <link rel="stylesheet" href="hindi.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Handwritten Text Recognition for Marathi/Hindi</h1>
+        <div class="upload-section">
+            <label for="file-upload" class="custom-file-upload">
+                Upload Handwritten Document
+            </label>
+            <input type="file" id="file-upload" accept="image/*">
+            <button id="process-btn">Process Image</button>
+        </div>
+        <div id="preview-section">
+            <img id="image-preview" src="#" alt="Image Preview" style="display: none;">
+        </div>
+        <div id="result-section">
+            <h2>Recognized Text:</h2>
+            <p id="recognized-text">Your text will appear here...</p>
+        </div>
+    </div>
+
+    <script src="hindi.js"></script>
+</body>
+</html>
